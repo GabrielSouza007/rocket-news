@@ -24,14 +24,14 @@ input {
   height: 94px;
   margin-top: 50px;
   margin-left: 29px;
-  margin-right: 302px;
+  /*margin-right: 302px;*/
 }
 
 #card {
   margin: 70px 0 25px 36px;
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 15px;
 }
 
 #card > #title {
@@ -52,13 +52,14 @@ input {
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  margin-bottom: 25px;
 }
 
 #form {
   display: flex;
   flex-direction: column;
   gap: 17px;
-  margin-bottom: 17px;
+  margin-bottom: 50px;
 }
 
 #form > div {
@@ -129,5 +130,19 @@ input {
   }
   #image {
     display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  #columns > #grid-1 {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  #form > div > input {
+    width: 300px;
+  }
+  #logo > img {
+    margin-top: 0px;
   }
 }
