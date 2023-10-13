@@ -1,4 +1,4 @@
-<h1 align="center"> Newsletters </h1>
+<h1 align="center"> Rocket News </h1>
 
 <h6 align="center"> 
 	If you want to preview the application, click <a href="https://rocket-news-gs.netlify.app/">here</a>.
